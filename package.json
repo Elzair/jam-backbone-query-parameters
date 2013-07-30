@@ -2,7 +2,7 @@
   "name": "backbone-query-parameters",
   "version": "linked",
   "description": "Backbone plugin which provides query parameter support",
-  "keywords": ["backbone", "query"],
+  "keywords": ["backbone", "query", "querystring"],
   "author": "Joe Hudson (https://github.com/jhudson8)",
 
   "maintainers": [
