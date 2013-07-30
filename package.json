@@ -1,0 +1,46 @@
+{
+  "name": "backbone-query-parameters",
+  "version": "linked",
+  "description": "Backbone plugin which provides query parameter support",
+  "keywords": ["backbone", "query"],
+  "author": "Joe Hudson (https://github.com/jhudson8)",
+
+  "maintainers": [
+    {
+      "name": "Philip Woods",
+      "email": "elzairthesorcerer@gmail.com"
+    }
+  ],
+
+  "licenses": [
+    {
+      "type": "Revised BSD",
+      "url": "http://opensource.org/licenses/BSD-3-Clause"
+    }
+  ],
+
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Elzair/jam-backbone-query-parameters.git"
+    }
+  ],
+
+  "github": "https://github.com/Elzair/jam-backbone-query-parameters.git",
+
+
+  "jam": {
+    "dependencies": {
+      "backbone": ">=0.9.9",
+      "underscore": ">=1.4.3"
+    },
+    "main": "backbone.queryparams.js",
+    "shim": {
+      "deps": ["backbone", "underscore", "jquery"],
+      "exports": "Backbone.QueryParams"
+    }
+    
+  }
+
+}
+
